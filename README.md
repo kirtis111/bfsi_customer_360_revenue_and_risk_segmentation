@@ -150,6 +150,12 @@ python generate_data.py
 4. Import second query → name table `pbi_monthly_trends`
 5. Build visuals using the field groups (`bal_`, `tx_`, `loan_`, `risk_`)
 
+<img width="864" height="484" alt="Image_1" src="https://github.com/user-attachments/assets/c8f26b44-e9fd-4050-9246-7e544d903e27" />
+
+<img width="847" height="463" alt="Image_2" src="https://github.com/user-attachments/assets/13f977a3-f978-4904-ae2f-8c5798345aca" />
+
+<img width="794" height="480" alt="Image_3" src="https://github.com/user-attachments/assets/d7a58272-1e57-4e0c-8cf6-10aac16e9844" />
+
 ---
 
 ## Dataset
@@ -229,16 +235,3 @@ British Columbia (31 customers, CAD 295K deposits) and Nova Scotia (25 customers
 
 ---
 
-## File Count Summary
-
-| Layer            | Files              | Approx. Lines    |
-| ---------------- | ------------------ | ---------------- |
-| Data generation  | 1 py               | 280              |
-| Schema           | 3 sql              | 570              |
-| Views (core)     | 2 sql              | 630              |
-| Views (business) | 2 sql              | 760              |
-| Business logic   | 4 sql              | 1,720            |
-| Reporting        | 2 sql              | 640              |
-| Validation       | 3 sql              | 910              |
-| Documentation    | 2 md               | 300              |
-| **Total**  | **19 files** | **~5,810** |
